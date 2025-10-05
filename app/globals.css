@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+css Copy .wow {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.wow.animated {
+  visibility: visible;
+  opacity: 1;
+}

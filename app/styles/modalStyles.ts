@@ -1,0 +1,35 @@
+export const styles: { [key: string]: React.CSSProperties } = {
+    overlay: {
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100vw',
+      height: '100vh',
+      backgroundColor: 'rgba(0, 0, 0, 0.8)',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      zIndex: 9999,
+    },
+    modal: {
+      position: 'relative',
+      backgroundColor: '#fff',
+      padding: '1rem',
+      borderRadius: '8px',
+      boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+      maxWidth: '90%',
+    },
+    closeButton: {
+      position: 'absolute',
+      top: '0.5rem',
+      right: '0.5rem',
+      background: 'none',
+      border: 'none',
+      fontSize: '1.5rem',
+      cursor: 'pointer',
+    },
+    iframe: {
+      display: 'block',
+      maxWidth: '100%',
+    },
+  };
