@@ -4,6 +4,7 @@ import BreadCrumb from "@/components/ui/BreadCrumb";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 interface DoctorData {
   name: string;
@@ -23,9 +24,8 @@ const DoctorPage = () => {
   // Mock data - replace with API call
   const doctor: DoctorData = {
     name: "دكتورة ميادة البراشي",
-    specialty: "جلدية-تجميل-ليزر",
-    image:
-      "https://www.orielclinics.com/thumbnail/600/600/75/storage/team/KDVTzRWdvRgQ8bz1VSAmCa6DzdXYpOiU7eAHMt54.jpg",
+    specialty: "جلدية - تجميل - ليزر",
+    image: "/images/blog.webp",
     description: `تتميز الدكتورة ميادة البراشي، المصرية الأصل والحاصلة على البورد الأمريكي في التجميل والجلدية والليزر...`,
     social: {
       twitter: "https://www.instagram.com/orielclinics/",
@@ -44,72 +44,74 @@ const DoctorPage = () => {
         ]}
       />
 
-      <div className="member-details">
-        <div className="container">
-          <div className="row no-gutters">
-            <div className="col-md-4">
-              <div className="team-member-img">
-                <figure className="image-anime">
-                  <Image
-                    width={160}
-                    height={100}
-                    src={doctor.image}
-                    alt={doctor.name}
-                    loading="lazy"
-                  />
-                </figure>
-              </div>
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-12 items-stretch">
+            {/* Doctor Image */}
+            <div className="md:col-span-4">
+              <Image
+                width={500}
+                height={500}
+                src={doctor.image}
+                alt={doctor.name}
+                className="w-full aspect-square object-cover rounded-s-2xl"
+              />
             </div>
 
-            <div className="col-md-8">
-              <div className="member-info">
-                <div className="section-title">
-                  <h3 data-aos="fade-up">{doctor.specialty}</h3>
-                  <h2>{doctor.name}</h2>
-                </div>
-
-                <div className="member-social-icon">
-                  <ul data-aos="fade-up" data-aos-delay="250">
-                    <li>
-                      <a
-                        rel="nofollow"
-                        href={doctor.social.twitter}
-                        target="_blank"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        rel="nofollow"
-                        href={doctor.social.instagram}
-                        target="_blank"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        rel="nofollow"
-                        href={doctor.social.facebook}
-                        target="_blank"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+            {/* Doctor Info */}
+            <div className="md:col-span-8 bg-[#B1946A] text-white rounded-e-2xl p-8 flex flex-col justify-center">
+              <div className="mb-6">
+                <h3 className="text-xl text-gray-200">{doctor.specialty}</h3>
+                <h2 className="text-3xl font-bold text-green-200">
+                  {doctor.name}
+                </h2>
               </div>
+
+              {/* Social Icons */}
+
+              <ul className="flex space-x-6">
+                <li>
+                  <a
+                    href={doctor.social.instagram}
+                    target="_blank"
+                    rel="nofollow"
+                    className="text-white text-2xl hover:text-[#B1946A] transition"
+                  >
+                    <FaInstagram className="text-3xl text-blue-50" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={doctor.social.twitter}
+                    target="_blank"
+                    rel="nofollow"
+                    className="text-white text-2xl hover:text-[#B1946A] transition"
+                  >
+                    <FaTwitter className="text-3xl text-blue-50" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={doctor.social.facebook}
+                    target="_blank"
+                    rel="nofollow"
+                    className="text-white text-2xl hover:text-[#B1946A] transition"
+                  >
+                    <FaFacebookF className="text-3xl text-blue-50" />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-          <hr />
-          <div className="member-about-data">
-            <p dir="rtl" data-aos="fade-up">
+
+          {/* Doctor Description */}
+          <div className="mt-10 border-t border-gray-200 pt-6">
+            <p dir="rtl" className="text-gray-700 leading-relaxed text-lg">
               {doctor.description}
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

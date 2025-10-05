@@ -88,7 +88,7 @@ const Doctors = () => {
                   />
 
                   {/* Hover Overlay */}
-                  <div className="absolute inset-0  bg-black/40  transition flex items-end pb-2 justify-center">
+                  <div className="absolute inset-0  bg-black/20  transition flex items-end pb-2 justify-center">
                     <ul className="flex space-x-6">
                       <li>
                         <a
@@ -97,7 +97,7 @@ const Doctors = () => {
                           rel="nofollow"
                           className="text-white text-2xl hover:text-[#B1946A] transition"
                         >
-                          <FaInstagram className="text-3xl text-pink-600" />
+                          <FaInstagram className="text-3xl text-blue-100" />
                         </a>
                       </li>
                       <li>
@@ -107,7 +107,7 @@ const Doctors = () => {
                           rel="nofollow"
                           className="text-white text-2xl hover:text-[#B1946A] transition"
                         >
-                          <FaTwitter className="text-3xl text-blue-500" />
+                          <FaTwitter className="text-3xl text-blue-100" />
                         </a>
                       </li>
                       <li>
@@ -117,7 +117,7 @@ const Doctors = () => {
                           rel="nofollow"
                           className="text-white text-2xl hover:text-[#B1946A] transition"
                         >
-                          <FaFacebookF className="text-3xl text-blue-600" />
+                          <FaFacebookF className="text-3xl text-blue-100" />
                         </a>
                       </li>
                     </ul>

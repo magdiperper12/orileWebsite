@@ -12,12 +12,10 @@ interface SimilarBlog {
 const SimilarBlogs = () => {
   const t = useTranslations("Blog");
 
-  // Mock data - replace with actual API data
   const SimilarBlogs: SimilarBlog[] = [
     {
       id: 1,
       title: "جلسة بيكو للوجه مع برسيبيل",
-
       slug: "Pico-Facial-Session-with-Persipelle",
     },
     {
@@ -25,25 +23,35 @@ const SimilarBlogs = () => {
       title: "جلسة بيكو اندرام + ميزوثيرابي",
       slug: "Pico-Endrame--Mesotherapy-Session",
     },
-    // Add more offers as needed
   ];
 
   return (
-    <div className="col-lg-4 col-md-4">
-      <div className="services-sidebar">
-        <div className="medical-service wow fadeInUp">
-          <div className="subpage-header-box mb-4">
-            <h1>{t("OtherBlogs")}</h1>
+    <div className=" flex justify-center items-start">
+      <div>
+        <div className="wow fadeInUp   bg-[#24403f]">
+          {/* Header */}
+          <div className="mb-6 text-center">
+            <div
+              className="text-2xl font-bold pt-3"
+              style={{ color: "var(--secondry-color)" }}
+            >
+              {t("OtherBlogs")}
+            </div>
           </div>
 
-          <div className="medical-service-list">
-            <ul>
+          {/* List */}
+          <div>
+            <ul className="space-y-5 px-4">
               {SimilarBlogs.map((offer) => (
                 <li key={offer.id}>
                   <Link href={`/blog/${offer.slug}`}>
-                    <div className="service-item">
-                      <div className="service-title">
-                        <h3>{offer.title}</h3>
+                    <div className="w-full flex justify-center items-center">
+                      <div className="flex items-center  px-3 py-2 rounded-lg  justify-center cursor-pointer bg-[#B1946A] transition-all text-white hover:opacity-90 ">
+                        <div className="service-title">
+                          <div className="text-xl font-normal capitalize text-white">
+                            {offer.title}
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </Link>
@@ -52,8 +60,16 @@ const SimilarBlogs = () => {
             </ul>
           </div>
 
-          <div className="service-btn">
-            <Link href="/offers" className="btn-default">
+          {/* Button */}
+          <div className="mt-10">
+            <Link
+              href="/offers"
+              className="block px-6 py-3 text-center font-medium transition-all hover:opacity-90"
+              style={{
+                background: "var(--accent-color)",
+                color: "var(--secondry-color)",
+              }}
+            >
               {t("AllBlogs")}
             </Link>
           </div>

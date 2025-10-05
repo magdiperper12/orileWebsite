@@ -1,18 +1,21 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Select from "react-select";
 import { useTranslations } from "next-intl";
+import SelectBox from "../ui/SelectBox";
 
 const ContactUs = () => {
   const t = useTranslations("Contact");
 
-  const options = [
+  const states = [
     { value: "chocolate", label: "Chocolate" },
     { value: "strawberry", label: "Strawberry" },
-    { value: "vanilla", label: "Vanilla" },
+    { value: "vanilla45", label: "Vanilla" },
+    { value: "vanilla09", label: "Vanilla" },
+    { value: "chocolate78", label: "Chocolate" },
+    { value: "strawberry34", label: "Strawberry" },
+    { value: "vanilla54", label: "Vanilla" },
   ];
-
   return (
     <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-6xl mx-auto">
@@ -66,17 +69,7 @@ const ContactUs = () => {
               </div>
 
               <div className="grid md:grid-cols-2 gap-6">
-                <Select
-                  instanceId="contact-color"
-                  className="w-full py-3"
-                  classNamePrefix="select"
-                  isClearable
-                  isSearchable
-                  name="color"
-                  options={options}
-                  placeholder={t("selectOption")}
-                  menuPosition="fixed"
-                />
+                <SelectBox options={states} />
                 <input
                   type="date"
                   name="date"

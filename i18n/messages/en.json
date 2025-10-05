@@ -1,318 +1,319 @@
 {
-	"NavBar": {
-		"Home": "Home",
-		"about": "About",
-		"Services": "Services",
-		"Other Offers": "Other Offers",
-		"Cart": "Cart",
-		"Checkout": "Checkout",
-		"Branches": "Our Branches",
-		"Email Address": "Email Address",
-		"Ar": "AR",
-		"Devices": "Devices",
-		"Doctors": "Doctors",
-		"Offers": "Offers",
-		"Blog": "Blog",
-		"AboutUs": "About Us",
-		"Login": "Login",
-		"Contact Us": "Contact Us",
-		"Complains": "Complaints",
-		"Demands": "Requests",
-		"Balance": "Balance",
-		"MyAccount": "My Account",
-		"Reservations": "Reservations",
-		"PaidOffers": "Paid Offers",
-		"Logout": "Logout"
-	},
-	"Search": {
-		"Search": "Search for",
-		"SearchResult": "Search Results"
-	},
-	"Offers": {
-		"Offers": "Offers",
-		"ourOffers": "Our Offers",
-		"AddToCart": "Add to Cart",
-		"OtherOffers": "Other Offers",
-		"AllOffers": "All Offers",
-		"Derma": "Dermatology",
-		"SAR": "SAR"
-	},
-	"Blog": {
-		"Blog": "Blog",
-		"ourBlog": "Our Blog",
-		"AllBlogs": "All Blogs",
-		"ReadMore": "Read More",
-		"OtherBlogs": "Other Articles"
-	},
-	"devices": {
-		"Devices": "Devices",
-		"ourDevices": "Our Devices",
-		"AllDevices": "All Devices",
-		"OtherDevices": "Other Devices",
-		"ReadMore": "Read More"
-	},
-	"Devices": {
-		"Devices": "Devices",
-		"ourDevices": "Our Devices",
-		"AllDevices": "All Devices",
-		"OtherDevices": "Other Devices",
-		"ReadMore": "Read More"
-	},
-	"Page": {
-		"Page": "Page",
-		"AboutUs": "About Us",
-		"PageNotFound": "Page Not Found"
-	},
-	"Demands": {
-		"Demands": "Requests"
-	},
-	"Complains": {
-		"Complains": "Complaints"
-	},
-	"Auth": {
-		"Login": "Login",
-		"LoginTitle": "Login",
-		"LoginSubtitle": "Register if you don't have an account",
-		"EmailPhone": "Email/Phone",
-		"EnterEmailPhone": "Enter email or phone",
-		"Password": "Password",
-		"EnterPassword": "Enter password",
-		"RememberMe": "Remember me?",
-		"LoginButton": "Login",
-		"ForgotPassword": "Forgot password?",
-		"RegisterTitle": "Register",
-		"RegisterSubtitle": "Enter your details to become a member",
-		"Name": "Name",
-		"EnterName": "Enter name",
-		"Email": "Email",
-		"EnterEmail": "Enter email",
-		"Phone": "Phone Number",
-		"EnterPhone": "Enter phone number",
-		"Nationality": "Nationality",
-		"Choose": "- Choose -",
-		"NonSaudi": "Non-Saudi",
-		"Saudi": "Saudi",
-		"NationalID": "National ID",
-		"EnterNationalID": "Enter national ID",
-		"ConfirmPassword": "Confirm Password",
-		"AgreeToTerms": "I agree to",
-		"TermsAndConditions": "Terms and Conditions",
-		"RegisterButton": "Register Now",
-		"SendResetLink": "Send reset link to email",
-		"MyAccount": "My Account",
-		"MyData": "My Data",
-		"Age": "Age",
-		"Save": "Save"
-	},
-	"Reservations": {
-		"Title": "Reservations",
-		"ReservationsHistory": "Reservation History",
-		"Clinic": "Clinic",
-		"Offer": "Offer",
-		"Service": "Service",
-		"RequestDate": "Request Date",
-		"payedTitle": "Paid Offers",
-		"PaidOffersHistory": "Paid Offers History",
-		"NoDataYet": "No data available yet"
-	},
-	"Cart": {
-		"Cart": "Shopping Cart",
-		"Offers": "Offers",
-		"Items": "Items",
-		"Price": "Price",
-		"DiscountPrice": "Discounted Price",
-		"Quantity": "Quantity",
-		"Branch": "Branch",
-		"Total": "Total",
-		"EmptyCart": "Cart is empty",
-		"EnterCoupon": "Enter coupon",
-		"ApplyCoupon": "Apply coupon",
-		"UpdateCart": "Update cart"
-	},
-	"Error": {
-		"retry": "Try Again",
-		"title": "Error Loading Data",
-		"message": "Sorry, an error occurred while loading data"
-	},
-	"Footer": {
-		"LogoAlt": "MediPro Footer Logo",
-		"AboutText": "Our family-centered approach to healthcare ensures that each member of your family receives personalized attention.",
-		"QuickLinks": "Quick Links",
-		"Home": "Home",
-		"About Us": "About Us",
-		"Doctors": "Doctors",
-		"ContactDetails": "Contact Details",
-		"Services": "Services",
-		"ContactUs": "Contact Us",
-		"Address": "Jl. Raya Kuta No.70, Kuta",
-		"EmailPlaceholder": "Enter your email",
-		"Subscribe": "Subscribe",
-		"Email": "healthcare@gmail.com",
-		"Phone": "+01 547 547 5478",
-		"WorkingHours": "8 AM - 5 PM, Monday - Saturday",
-		"Newsletter": "Newsletter",
-		"NewsletterText": "Stay informed and never miss out on the latest news, health tips.",
-		"NewsletterPlaceholder": "Enter Your Email",
-		"Send": "Send",
-		"NewsletterSuccess": "You have successfully subscribed with",
-		"AllRights": "All rights reserved."
-	},
-	"About": {
-		"AboutUs": "About Medicalife",
-		"AboutTitle": " Our Best Services & Popular Treatment Here.",
-		"AboutSubtitle": "We take pride in offering a wide range of best-in-class medical services and popular treatments to cater to your diverse healthcare needs.",
-		"LearnMore": " Read More",
-		"list": {
-			"l1": "Mental Health Solutions",
-			"l2": "Rapid Patient Improvement",
-			"l3": "World Class Treatment"
-		}
-	},
+  "NavBar": {
+    "Home": "Home",
+    "about": "About",
+    "Services": "Services",
+    "Other Offers": "Other Offers",
+    "Cart": "Cart",
+    "Checkout": "Checkout",
+    "Branches": "Our Branches",
+    "Email Address": "Email Address",
+    "Ar": "AR",
+    "Devices": "Devices",
+    "Doctors": "Doctors",
+    "Offers": "Offers",
+    "Blog": "Blog",
+    "AboutUs": "About Us",
+    "Login": "Login",
+    "Contact Us": "Contact Us",
+    "Complains": "Complaints",
+    "Demands": "Requests",
+    "Balance": "Balance",
+    "MyAccount": "My Account",
+    "Reservations": "Reservations",
+    "PaidOffers": "Paid Offers",
+    "Logout": "Logout"
+  },
+  "Search": {
+    "Search": "Search for",
+    "SearchResult": "Search Results"
+  },
+  "Offers": {
+    "Offers": "Offers",
+    "ourOffers": "Our Offers",
+    "AddToCart": "Add to Cart",
+    "OtherOffers": "Other Offers",
+    "AllOffers": "All Offers",
+    "Derma": "Dermatology",
+    "SAR": "SAR"
+  },
+  "Blog": {
+    "Blog": "Blog",
+    "ourBlog": "Our Blog",
+    "AllBlogs": "All Blogs",
+    "ReadMore": "Read More",
+    "OtherBlogs": "Other Articles"
+  },
+  "devices": {
+    "Devices": "Devices",
+    "ourDevices": "Our Devices",
+    "AllDevices": "All Devices",
+    "OtherDevices": "Other Devices",
+    "ReadMore": "Read More"
+  },
+  "Devices": {
+    "Devices": "Devices",
+    "ourDevices": "Our Devices",
+    "AllDevices": "All Devices",
+    "OtherDevices": "Other Devices",
+    "ReadMore": "Read More"
+  },
+  "Page": {
+    "Page": "Page",
+    "AboutUs": "About Us",
+    "PageNotFound": "Page Not Found"
+  },
+  "Demands": {
+    "Demands": "Requests"
+  },
+  "Complains": {
+    "Complains": "Complaints"
+  },
+  "Auth": {
+    "Login": "Login",
+    "LoginTitle": "Login",
+    "LoginSubtitle": "Register if you don't have an account",
+    "EmailPhone": "Email/Phone",
+    "EnterEmailPhone": "Enter email or phone",
+    "Password": "Password",
+    "EnterPassword": "Enter password",
+    "RememberMe": "Remember me?",
+    "LoginButton": "Login",
+    "ForgotPassword": "Forgot password?",
+    "RegisterTitle": "Register",
+    "RegisterSubtitle": "Enter your details to become a member",
+    "Name": "Name",
+    "EnterName": "Enter name",
+    "Email": "Email",
+    "EnterEmail": "Enter email",
+    "Phone": "Phone Number",
+    "EnterPhone": "Enter phone number",
+    "Nationality": "Nationality",
+    "Choose": "- Choose -",
+    "NonSaudi": "Non-Saudi",
+    "Saudi": "Saudi",
+    "NationalID": "National ID",
+    "EnterNationalID": "Enter national ID",
+    "ConfirmPassword": "Confirm Password",
+    "AgreeToTerms": "I agree to",
+    "TermsAndConditions": "Terms and Conditions",
+    "RegisterButton": "Register Now",
+    "SendResetLink": "Send reset link to email",
+    "MyAccount": "My Account",
+    "MyData": "My Data",
+    "Age": "Age",
+    "Save": "Save"
+  },
+  "Reservations": {
+    "Title": "Reservations",
+    "ReservationsHistory": "Reservation History",
+    "Clinic": "Clinic",
+    "Offer": "Offer",
+    "Service": "Service",
+    "RequestDate": "Request Date",
+    "payedTitle": "Paid Offers",
+    "PaidOffersHistory": "Paid Offers History",
+    "NoDataYet": "No data available yet"
+  },
+  "Cart": {
+    "Cart": "Shopping Cart",
+    "Offers": "Offers",
+    "Items": "Items",
+    "Price": "Price",
+    "DiscountPrice": "Discounted Price",
+    "Quantity": "Quantity",
+    "Branch": "Branch",
+    "Total": "Total",
+    "EmptyCart": "Cart is empty",
+    "EnterCoupon": "Enter coupon",
+    "ApplyCoupon": "Apply coupon",
+    "UpdateCart": "Update cart"
+  },
+  "Error": {
+    "retry": "Try Again",
+    "title": "Error Loading Data",
+    "message": "Sorry, an error occurred while loading data"
+  },
+  "Footer": {
+    "LogoAlt": "MediPro Footer Logo",
+    "AboutText": "Our family-centered approach to healthcare ensures that each member of your family receives personalized attention.",
+    "QuickLinks": "Quick Links",
+    "Home": "Home",
+    "About Us": "About Us",
+    "Doctors": "Doctors",
+    "ContactDetails": "Contact Details",
+    "Services": "Services",
+    "ContactUs": "Contact Us",
+    "Address": "Jl. Raya Kuta No.70, Kuta",
+    "EmailPlaceholder": "Enter your email",
+    "Subscribe": "Subscribe",
+    "Email": "healthcare@gmail.com",
+    "Phone": "+01 547 547 5478",
+    "WorkingHours": "8 AM - 5 PM, Monday - Saturday",
+    "Newsletter": "Newsletter",
+    "NewsletterText": "Stay informed and never miss out on the latest news, health tips.",
+    "NewsletterPlaceholder": "Enter Your Email",
+    "Send": "Send",
+    "NewsletterSuccess": "You have successfully subscribed with",
+    "AllRights": "All rights reserved."
+  },
+  "About": {
+    "AboutUs": "About Medicalife",
+    "AboutTitle": " Our Best Services & Popular Treatment Here.",
+    "AboutSubtitle": "We take pride in offering a wide range of best-in-class medical services and popular treatments to cater to your diverse healthcare needs.",
+    "LearnMore": " Read More",
+    "list": {
+      "l1": "Mental Health Solutions",
+      "l2": "Rapid Patient Improvement",
+      "l3": "World Class Treatment"
+    }
+  },
 
-	"services": {
-		"heading": "medical services",
-		"subHeading": "We're Providing Best Services.",
-		"item1": {
-			"title": "eye care",
-			"description": "we understand the importance of clear vision and its impact on your."
-		},
-		"item2": {
-			"title": "medical checkup",
-			"description": "During your medical checkup, our skilled healthcare professionals."
-		},
-		"item3": {
-			"title": "dental care",
-			"description": "we are passionate about providing top-notch dental care to help you."
-		},
-		"item4": {
-			"title": "laboratory service",
-			"description": "we understand the critical role that accurate diagnostics play in guiding."
-		},
-		"item5": {
-			"title": "Patient-centered",
-			"description": "hospitals, or clinics with positive reviews and ratings from patients."
-		}
-	},
-	"ctaSection": {
-		"title": "Open For Appointments",
-		"description": "We are delighted to announce that our doors are open, and we are now accepting appointments to serve you better.",
-		"button": "Make Appointment"
-	},
+  "services": {
+    "heading": "medical services",
+    "subHeading": "We're Providing Best Services.",
+    "item1": {
+      "title": "eye care",
+      "description": "we understand the importance of clear vision and its impact on your."
+    },
+    "item2": {
+      "title": "medical checkup",
+      "description": "During your medical checkup, our skilled healthcare professionals."
+    },
+    "item3": {
+      "title": "dental care",
+      "description": "we are passionate about providing top-notch dental care to help you."
+    },
+    "item4": {
+      "title": "laboratory service",
+      "description": "we understand the critical role that accurate diagnostics play in guiding."
+    },
+    "item5": {
+      "title": "Patient-centered",
+      "description": "hospitals, or clinics with positive reviews and ratings from patients."
+    }
+  },
+  "ctaSection": {
+    "title": "Open For Appointments",
+    "description": "We are delighted to announce that our doors are open, and we are now accepting appointments to serve you better.",
+    "button": "Make Appointment"
+  },
 
-	"howWork": {
-		"heading": "how we work",
-		"subHeading": "A Comprehensive Directory For Your Health Care.",
-		"description": "we are your trusted one-stop destination for all your healthcare needs. Our comprehensive directory is designed to provide you with easy access to a wide range of healthcare services and providers, ensuring that you and your family.",
-		"steps": {
-			"step1": "book an appointment",
-			"step2": "conduct checkup",
-			"step3": "perform treatment",
-			"step4": "prescribe & payment"
-		}
-	},
+  "howWork": {
+    "heading": "how we work",
+    "subHeading": "A Comprehensive Directory For Your Health Care.",
+    "description": "we are your trusted one-stop destination for all your healthcare needs. Our comprehensive directory is designed to provide you with easy access to a wide range of healthcare services and providers, ensuring that you and your family.",
+    "steps": {
+      "step1": "book an appointment",
+      "step2": "conduct checkup",
+      "step3": "perform treatment",
+      "step4": "prescribe & payment"
+    }
+  },
 
-	"faqSection": {
-		"heading": "faqs",
-		"subHeading": "Consultations with Qualified doctors.",
-		"counters": {
-			"doctors": "doctors",
-			"offices": "world office"
-		},
-		"faqItems": {
-			"faq1": {
-				"question": "Are telemedicine consultations available?",
-				"answer": "Yes, we offer telemedicine consultations for certain medical conditions."
-			},
-			"faq2": {
-				"question": "Do you accept health insurance?",
-				"answer": "Yes, we accept most major health insurance plans."
-			},
-			"faq3": {
-				"question": "How much does a consultation cost?",
-				"answer": "Consultation fees vary depending on the doctor and the type of consultation."
-			}
-		}
-	},
-	"testimonial": {
-		"heading": "testimonial",
-		"subHeading": "What Patients Say About Us.",
-		"items": {
-			"t1": {
-				"name": "Mary Johnson",
-				"role": "Student",
-				"review": "Great experience, caring doctors, and modern, compassionate staff."
-			},
-			"t2": {
-				"name": "John Doe",
-				"role": "CEO of Digital Marketing",
-				"review": "Highly skilled doctors and compassionate staff. Truly professional service."
-			},
-			"t3": {
-				"name": "Robert Lee",
-				"role": "Accountant",
-				"review": "Top-notch healthcare with a patient-centered approach. Very satisfied!"
-			},
-			"t4": {
-				"name": "Emily Davis",
-				"role": "CEO of Digital Marketing",
-				"review": "Compassionate doctors and excellent healthcare. Highly recommend!"
-			}
-		}
-	},
+  "faqSection": {
+    "heading": "faqs",
+    "subHeading": "Consultations with Qualified doctors.",
+    "counters": {
+      "doctors": "doctors",
+      "offices": "world office"
+    },
+    "faqItems": {
+      "faq1": {
+        "question": "Are telemedicine consultations available?",
+        "answer": "Yes, we offer telemedicine consultations for certain medical conditions."
+      },
+      "faq2": {
+        "question": "Do you accept health insurance?",
+        "answer": "Yes, we accept most major health insurance plans."
+      },
+      "faq3": {
+        "question": "How much does a consultation cost?",
+        "answer": "Consultation fees vary depending on the doctor and the type of consultation."
+      }
+    }
+  },
+  "testimonial": {
+    "heading": "testimonial",
+    "subHeading": "What Patients Say About Us.",
+    "items": {
+      "t1": {
+        "name": "Mary Johnson",
+        "role": "Student",
+        "review": "Great experience, caring doctors, and modern, compassionate staff."
+      },
+      "t2": {
+        "name": "John Doe",
+        "role": "CEO of Digital Marketing",
+        "review": "Highly skilled doctors and compassionate staff. Truly professional service."
+      },
+      "t3": {
+        "name": "Robert Lee",
+        "role": "Accountant",
+        "review": "Top-notch healthcare with a patient-centered approach. Very satisfied!"
+      },
+      "t4": {
+        "name": "Emily Davis",
+        "role": "CEO of Digital Marketing",
+        "review": "Compassionate doctors and excellent healthcare. Highly recommend!"
+      }
+    }
+  },
 
-	"blog": {
-		"heading": "our blog",
-		"subHeading": "Latest News & Articles.",
-		"posts": [
-			{
-				"title": "Best Medical Network Directory For Physicians & Clients",
-				"description": "Hypertension, commonly known as high blood pressure, is a prevalent"
-			},
-			{
-				"title": "The Importance of Regular Health Checkups",
-				"description": "This symptoms, causes, risk factors, diagnosis, treatment options strategies."
-			},
-			{
-				"title": "Managing Better Stress for Better Mental Health",
-				"description": "These stories can provide valuable insights into living with a particular condition"
-			}
-		],
-		"ReadMore": "Read More"
-	},
-	"Contact": {
-		"fillForm": "Fill the form",
-		"title": "Contact Form",
-		"appointment": "Make <strong>Appointment</strong> & Take Care Of Your Healthy Life",
-		"name": "Name",
-		"email": "Email",
-		"selectOption": "Select an option",
-		"date": "Date",
-		"message": "Your Message",
-		"send": "Send Test"
-	},
-	"Doctors": {
-		"Doctors": "Doctors",
-		"OurDoctors": "Meet Our Doctors",
-		"Specialties": {
-			"Dermatology": "Dermatology",
-			"Cosmetic": "Cosmetic",
-			"Laser": "Laser"
-		}
-	},
+  "blog": {
+    "heading": "our blog",
+    "subHeading": "Latest News & Articles.",
+    "posts": [
+      {
+        "title": "Best Medical Network Directory For Physicians & Clients",
+        "description": "Hypertension, commonly known as high blood pressure, is a prevalent"
+      },
+      {
+        "title": "The Importance of Regular Health Checkups",
+        "description": "This symptoms, causes, risk factors, diagnosis, treatment options strategies."
+      },
+      {
+        "title": "Managing Better Stress for Better Mental Health",
+        "description": "These stories can provide valuable insights into living with a particular condition"
+      }
+    ],
+    "ReadMore": "Read More"
+  },
+  "Contact": {
+    "ContactUs": "Contact Us",
+    "fillForm": "Fill the form",
+    "title": "Contact Form",
+    "appointment": "Make <strong>Appointment</strong> & Take Care Of Your Healthy Life",
+    "name": "Name",
+    "email": "Email",
+    "selectOption": "Select an option",
+    "date": "Date",
+    "message": "Your Message",
+    "send": "Send Test"
+  },
+  "Doctors": {
+    "Doctors": "Doctors",
+    "OurDoctors": "Meet Our Doctors",
+    "Specialties": {
+      "Dermatology": "Dermatology",
+      "Cosmetic": "Cosmetic",
+      "Laser": "Laser"
+    }
+  },
 
-	"Aboutpage": {
-		"dir": "ltr",
-		"AboutUs": "About Us",
-		"title": "About Us",
-		"ourStoryTitle": "Our Story",
-		"ourStory": "At Oriel Clinic, we believe true beauty is timeless...",
-		"ourMission": "We help you shine by offering unparalleled aesthetic services...",
-		"whoWeAreTitle": "Who We Are",
-		"whoWeAre": "Oriel Clinic is the ultimate destination for beauty and wellness...",
-		"identityTitle": "Our Identity",
-		"identity": "At Oriel Clinic, we combine authenticity with innovation...",
-		"visionTitle": "Our Vision",
-		"vision": "We draw inspiration from Saudi Arabia’s rich heritage...",
-		"whyChooseUs": "Why Choose Oriel Clinic?"
-	}
+  "Aboutpage": {
+    "dir": "ltr",
+    "AboutUs": "About Us",
+    "title": "About Us",
+    "ourStoryTitle": "Our Story",
+    "ourStory": "At Oriel Clinic, we believe true beauty is timeless...",
+    "ourMission": "We help you shine by offering unparalleled aesthetic services...",
+    "whoWeAreTitle": "Who We Are",
+    "whoWeAre": "Oriel Clinic is the ultimate destination for beauty and wellness...",
+    "identityTitle": "Our Identity",
+    "identity": "At Oriel Clinic, we combine authenticity with innovation...",
+    "visionTitle": "Our Vision",
+    "vision": "We draw inspiration from Saudi Arabia’s rich heritage...",
+    "whyChooseUs": "Why Choose Oriel Clinic?"
+  }
 }
