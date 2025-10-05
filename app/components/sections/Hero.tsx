@@ -26,12 +26,13 @@ const Hero: React.FC = () => {
   }, [dispatch]);
 
   const { slider, loading, error, count } = useSelector(
-    (state: RootState) => state.Hero as {
-      slider: Slider[];
-      loading: boolean;
-      error: unknown;
-      count: number;
-    }
+    (state: RootState) =>
+      state.Hero as {
+        slider: Slider[];
+        loading: boolean;
+        error: unknown;
+        count: number;
+      }
   );
 
   console.log("Slider Data final ====== >>", {
@@ -76,7 +77,9 @@ const Hero: React.FC = () => {
   }
 
   // أول عنصر
-  const firstSlide: Slider | undefined = slider[0];
+  const firstSlide = Array.isArray(slider)
+    ? slider[0]
+    : (slider as unknown as Slider);
   if (!firstSlide) return null;
 
   return (
@@ -119,14 +122,18 @@ const Hero: React.FC = () => {
             <div className="hero-images">
               <div className="hero-image-1">
                 <RevealImage
-                  src={firstSlide.top_header_slider_img_1}
+                  src={
+                    firstSlide.top_header_slider_img_1 || "/images/blog.webp"
+                  }
                   alt="Hero Image 1"
                 />
               </div>
               <div className="hero-image-2">
                 <RevealImage
-                  src={firstSlide.top_header_slider_img_2}
-                  alt="Hero Image 2"
+                  src={
+                    firstSlide.top_header_slider_img_2 || "/images/blog.webp"
+                  }
+                  alt="Hero Image 1"
                 />
               </div>
             </div>
